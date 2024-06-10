@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
 
+/**
+ * Mongoose model that defines the schema for storing doctor schedules and appointment slots.
+*/
 const DoctorScheduleSchema = new mongoose.Schema({
     doctorId: {
         type: String,
